@@ -14,7 +14,8 @@ website:
         href: life-population.qmd
       - text: "Country Analysis"
         href: country.qmd
-
+      - text: "Interactive Map"
+	href: map.qmd
 format:
   html:
     theme: cosmo

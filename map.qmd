@@ -1,0 +1,29 @@
+---
+title: "Interactive Life Expectancy Map"
+format: html
+jupyter: python3
+---
+
+This interactive map shows life expectancy by country.
+
+```{python}
+import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv("gapminder.csv")
+
+# Use most recent year
+latest = df[df["year"] == df["year"].max()]
+
+fig = px.choropleth(
+    latest,
+    locations="country",
+    locationmode="country names",
+    color="life_expectancy",
+    hover_name="country",
+    color_continuous_scale="Viridis",
+    title="Life Expectancy by Country"
+)
+
+fig.show()
+```
