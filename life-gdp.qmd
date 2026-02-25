@@ -1,6 +1,7 @@
 ---
 title: "Life Expectancy and GDP per Capita"
 format: html
+jupyter: python3
 ---
 
 This page explores the relationship between life expectancy and GDP per capita across countries.
@@ -31,3 +32,4 @@ plt.xlabel("GDP per Capita (log scale)")
 plt.ylabel("Life Expectancy")
 plt.legend()
 plt.show()
+```

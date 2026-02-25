@@ -1,6 +1,7 @@
 ---
 title: "Country Analysis"
 format: html
+jupyter: python3
 ---
 
 This page analyzes changes in life expectancy, GDP per capita, and population over time for a specific country.
@@ -40,3 +41,4 @@ plt.title(f"{country_name}: Population Over Time")
 plt.xlabel("Year")
 plt.ylabel("Population (millions)")
 plt.show()
+```

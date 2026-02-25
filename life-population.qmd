@@ -1,6 +1,7 @@
 ---
 title: "Life Expectancy and Population"
 format: html
+jupyter: python3
 ---
 
 This page explores the relationship between life expectancy and population across countries.
@@ -20,3 +21,4 @@ plt.title("Life Expectancy vs Population")
 plt.xlabel("Population (millions)")
 plt.ylabel("Life Expectancy")
 plt.show()
+```
