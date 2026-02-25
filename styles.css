@@ -1,0 +1,31 @@
+/* Change background */
+body {
+  background-color: #f8fbff;
+}
+
+/* Make titles blue */
+h1, h2, h3 {
+  color: #2c5aa0;
+}
+
+/* Style navbar */
+.navbar {
+  background-color: #1f4e79;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+/* Make plots centered */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Improve page spacing */
+main {
+  max-width: 900px;
+  margin: auto;
+}
